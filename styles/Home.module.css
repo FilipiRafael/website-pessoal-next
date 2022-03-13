@@ -52,8 +52,10 @@
 
 .description {
   margin: 4rem 0;
+  width: 40%;
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  text-align: center;
 }
 
 .code {
@@ -113,4 +115,8 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.personImage {
+  border-radius: 50%;
 }
