@@ -24,31 +24,31 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://github.com/FilipiRafael" className={styles.card}>
+            <h2>GitHub</h2>
+            <p>Conheça os meus melhores projetos no github.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="https://www.linkedin.com/in/filipi-rafael-developer/" className={styles.card}>
+            <h2>Linkedin</h2>
+            <p>Conheça minha trajetória e vamos conversar.</p>
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://www.instagram.com/filipi.rafael.7/"
             className={styles.card}
           >
-            <h2>Deploy &rarr;</h2>
+            <h2>Instagram</h2>
+            <p>Para acompanhar meu dia a dia.</p>
+          </a>
+
+          <a
+            href="https://twitter.com/FilipiRafael3"
+            className={styles.card}
+          >
+            <h2>Twitter</h2>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Para acompanhar novidades sobre profissão/tecnologia.
             </p>
           </a>
         </div>
@@ -60,3 +60,11 @@ export default function Home() {
     </div>
   );
 }
+
+// Web site precisa ser atualizado para SSG
+
+// export async function getStaticProps(context) {
+//   return {
+//     props: {}
+//   }
+// }
